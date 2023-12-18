@@ -5,28 +5,32 @@
 
 Example 1:
 
-Input: nums = [1,2,3,1]
+Input: nums = [1,2,3,1] </br>
 Output: true
 
 Given array contains '1' two times. At index 0 and 3.
 
 ----
+## Given Problem 
+
+we have to check if given array contains duplicate numbers or not. if it contains then return True else return False.
 
 ## Idea:
 
-1.Convert the Array into a set and check the length of set and given array
+1.Convert the Array into a set and check the length of set and given array </br>
+2. if length is same, then return False </br>
+3. else return True
 
-1.1. if length is same, then return False
-1.2. else return True
+---
 
-Example:
-nums = [1,2,3,1]
-1.set(nums) = ([1,2,3])
-len(nums) = 4
-len(set(nums)) = 3
+Example: </br>
+nums = [1,2,3,1] </br>
+1.set(nums) = ([1,2,3]) </br>
+len(nums) = 4 </br>
+len(set(nums)) = 3 </br>
 
-Here, len(nums) not equals to len(set(nums)). 
-So, this tells us there is a duplicate element/s in the given array.
+Here, len(nums) not equals to len(set(nums)).  </br>
+So, this tells us there is a duplicate element/s in the given array. </br>
 
 # Python Code
 ```
