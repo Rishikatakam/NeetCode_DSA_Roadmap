@@ -20,7 +20,7 @@ we have to check if given array contains numbers that add upto given target valu
 
 ## Idea:
 
-1.Check if target-current value is present in goven array.  </br>
+1. Check if target-current value is present in given array.  </br>
 2. if yes then check if index of both numbers is different. </br>
 3. if yes, then return the index of both numbers in an array format. </br>
 
@@ -30,7 +30,7 @@ Example: </br>
 nums = [2,7,11,15], target = 9</br>
 1.9-2 =7, check if 7 present in nums, Yes it is present. </br>
 2. check if index of 2 and 7 are different, Yes they are different. 2 is located at index 0 and 7 is located at index 1.</br>
-3. SO return [0,1] </br>
+3. So, return [0,1] </br>
 
 
 # Python Code
