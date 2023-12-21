@@ -27,7 +27,7 @@ Frequency of elements stored in a dictionary. {1: 3, 2: 2, 3: 1} </br>
 Sorted dictionary, stored as a list [(1, 3), (2, 2), (3, 1)] </br>
 Top 2 frequent elemnts are : [1,2] </br>
 return [1,2] </br>
----
+
 # Python Code
 ```
 class Solution(object):
